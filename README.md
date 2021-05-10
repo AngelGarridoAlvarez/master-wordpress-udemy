@@ -28,7 +28,8 @@ Son funciones que se aplican tanto a post, como a páginas y conenido en general
 <?php endif; ?>
 ```
 
-**Template tags**
+**Template tags**:
+
 Special functions that allow us to easily get information and content from wordpress
 
 Examples:
