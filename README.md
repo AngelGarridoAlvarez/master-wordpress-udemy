@@ -1,8 +1,39 @@
 # master-wordpress-udemy
 
+**wp-admin**
+* Usuario: angel
+* Password: act-01
 
 **wp-config.php**
 * Establece nombres de usuarios y passwords
+
+**wp-config-local.php**
+* Me pemite trabajar en local conectando la BBDD local con wordpress
+
+```php
+<?php
+ 
+  define('DB_NAME',             'db_nombre);
+  define('DB_USER',             'root');
+  define('DB_PASSWORD',         'root');
+  define('DB_HOST',             '127.0.0.1');
+
+  # EXTRA CONFIG
+  define('WP_DEBUG',            true);
+  define('WP_ALLOW_REPAIR',     true);
+  define('SAVEQUERIES',         false);
+  define('DISALLOW_FILE_MODS',  false);
+  define('FS_METHOD',           'direct');
+
+  define('COMPRESS_SCRIPTS',    true );
+  define('COMPRESS_CSS',        false );
+  define('SCRIPT_DEBUG',        true );
+  
+  // Sólo pongo en caso de que sea local
+  # MULTISITE
+  define('DOMAIN_CURRENT_SITE', 'nombre.angeldeveloper.local');
+
+```
 
 
 ## THE LOOP & THE POST
@@ -11,7 +42,7 @@ Son funciones que se aplican tanto a post, como a páginas y conenido en general
 
 **The loop**
 * combinacion de condcional + loop
-* Reune u prepara los post o el contenido de la página
+* Reune y prepara los post o el contenido de la página
 * Pude reunir un conjunto de post
 
 **The post**
