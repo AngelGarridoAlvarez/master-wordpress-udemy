@@ -1,8 +1,9 @@
 # master-wordpress-udemy
 
-**wp-admin**
+**Credencials usadas para el curso en local wp-admin**
+* udemy-course/wp-admin
 * Usuario: angel
-* Password: act-01
+* Password: myNewPassword_-?01
 
 **wp-config.php**
 * Establece nombres de usuarios y passwords
