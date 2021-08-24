@@ -23,10 +23,10 @@
 define( 'DB_NAME', 'wp_udemycourse' );
 
 /** MySQL database username */
-define( 'DB_USER', 'wp_udemycourse' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'wp_udemycourse' );
+define( 'DB_PASSWORD', 'root' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );

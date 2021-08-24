@@ -18,7 +18,9 @@
 
       <!-- Display the_title and the_content here -->
       <h1><?php the_title(); ?></h1>
-      <?php the_content(); ?>
+      <p><?php the_content(); ?></p>
+      <p><?php the_author(); ?></p>
+
 
     <?php endwhile; else: ?>
 
